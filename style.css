@@ -7,6 +7,16 @@
     width: 100%;
     
 }
+
+@media all and (min-width:768px){
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
 .logo {
     display: flex;
     flex-direction:
@@ -14,6 +24,7 @@
     border: 10px;
     justify-content: center;
 }
+
 .links .list {
     display: flex;
     flex-direction: row;
@@ -24,15 +35,14 @@
     
     
 }
-.links {
-    color: #4a4a4a;
-    
-}
 .list_items {
+    color: #4a4a4a;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
     margin: 0 20px;
     padding: 0px;
-    
 }
+
 .content {
     background: #3CDBC0;
     height: 100vh;
