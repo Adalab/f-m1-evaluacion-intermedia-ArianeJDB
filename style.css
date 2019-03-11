@@ -1,14 +1,17 @@
 .header {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     background: white;
     width: 100%;
     
+    
 }
 .logo {
-    
+    display: flex;
+    flex-direction:
     width: 155px;
     border: 10px;
-    display: flex;
     justify-content: center;
 }
 .links .list {
@@ -18,6 +21,17 @@
     justify-content: center;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
+    
+    
+}
+.links {
+    color: #4a4a4a;
+    
+}
+.list_items {
+    margin: 0 20px;
+    padding: 0px;
+    
 }
 .content {
     background: #3CDBC0;
