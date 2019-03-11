@@ -1,0 +1,32 @@
+.header {
+    position: fixed;
+    background: white;
+    width: 100%;
+    
+}
+.logo {
+    
+    width: 155px;
+    border: 10px;
+    display: flex;
+    justify-content: center;
+}
+.links .list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+.content {
+    background: #3CDBC0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+
+}
