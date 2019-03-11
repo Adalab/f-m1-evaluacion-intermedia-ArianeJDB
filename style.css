@@ -1,10 +1,10 @@
+
 .header {
     display: flex;
     flex-direction: column;
     position: fixed;
     background: white;
     width: 100%;
-    
     
 }
 .logo {
@@ -42,5 +42,11 @@
     color: #FFFFFF;
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
+
+}
+
+.content .text {
+    width: 150px;
+    text-align: center;
 
 }
