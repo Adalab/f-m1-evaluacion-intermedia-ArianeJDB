@@ -1,11 +1,20 @@
 
+body {
+    font-family: 'Rubik', sans-serif;
+    background: #3CDBC0;
+    margin: 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
 .header {
     display: flex;
+    align-items: center;
     flex-direction: column;
     position: fixed;
     background: white;
     width: 100%;
-    
+    padding: 10px 0 13px;
 }
 
 @media all and (min-width:768px){
@@ -18,58 +27,51 @@
 
 
 .logo {
-    display: flex;
-    flex-direction:
+    
     width: 155px;
     border: 20px;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 
-.links .list {
+.menu {
     display: flex;
-    flex-direction: row;
-    list-style: none;
+    align-items: center;
     justify-content: center;
-    font-family: 'Rubik', sans-serif;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center;
     font-size: 16px;
-    padding: 0px;
-    
-    
-}
-.list_items {
-    
-    font-family: 'Rubik', sans-serif;
-    list-style: none;
-    margin: 5px 10px;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-    
-    
+    padding: 0;
 }
 
-.linky {
+.list_items {
+    list-style: none;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+ .list_item {
+     margin-left: 0;
+ }
+
+
+.link {
     text-decoration: none;
     color: #4a4a4a;
 }
 
 .content {
-    background: #3CDBC0;
-    height: 100vh;
+    height: 100vh;;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
-    font-family: 'Rubik', sans-serif;
-    font-size: 30px;
-
 }
 
 .content .text {
     width: 150px;
     text-align: center;
-
+    font-weight: bold;
 }
